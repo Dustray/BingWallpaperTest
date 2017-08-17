@@ -74,6 +74,7 @@ namespace BingWallpaperTest
             setWallpaperApi(strSavePath);
         }
 
+
         //利用系统的用户接口设置壁纸
         [DllImport("user32.dll", EntryPoint = "SystemParametersInfo")]
         public static extern int SystemParametersInfo(
